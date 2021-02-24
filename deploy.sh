@@ -61,8 +61,8 @@ git add -A
 git commit -m '来自github actions的自动部署'
 
 # 部署到 https://<USERNAME>.github.io
-# git push -f https://github.com/21haoxingxiu/h5-cloud-music-ts.git gh-pages
-git push
+git push -f https://github.com/21haoxingxiu/21haoxingxiu.github.io.git master:gh-pages
 
-# git subtree push --prefix=.crd-dist origin gh-pages
-git push origin `git subtree split --prefix docs/.vuepress/dist master`:gh-pages --force
+# git push
+# # git subtree push --prefix=.crd-dist origin gh-pages
+# git push origin `git subtree split --prefix docs/.vuepress/dist master`:gh-pages --force
