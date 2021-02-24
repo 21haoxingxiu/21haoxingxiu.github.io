@@ -54,6 +54,9 @@ npm run build
 # 部署到自定义域名，没有自定义域名可注释掉
 # echo 'clearlove666.com' > CNAME
 
+  git config --global user.name "21haoxingxiu"
+  git config --global user.email "1047918517@qq.com"
+
 git init
 git add -A
 git commit -m 'deploy'
