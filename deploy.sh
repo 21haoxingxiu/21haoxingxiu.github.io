@@ -49,12 +49,10 @@ npm run build
 cd docs/.vuepress/dist
 
 # 部署到自定义域名，没有自定义域名可注释掉
-echo 'clearlove666.com' > CNAME
+echo 'www.clearlove666.com' > CNAME
 
 git config --global user.name "21haoxingxiu"
 git config --global user.email "1047918517@qq.com"
-
-cd -
 
 git init
 git add -A
@@ -64,5 +62,6 @@ git commit -m '来自github actions的自动部署'
 git push -f https://github.com/21haoxingxiu/21haoxingxiu.github.io.git master:gh-pages
 
 # git push
-# # git subtree push --prefix=.crd-dist origin gh-pages
 # git push origin `git subtree split --prefix docs/.vuepress/dist master`:gh-pages --force
+
+cd -
