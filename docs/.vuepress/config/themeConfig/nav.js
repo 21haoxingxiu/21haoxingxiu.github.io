@@ -1,3 +1,10 @@
+/*
+ * @Description: new file
+ * @Autor: zhan
+ * @Date: 2021-03-01 20:25:36
+ * @LastEditors: zhan
+ * @LastEditTime: 2021-03-01 21:03:35
+ */
 // nav
 module.exports = [
   { text: '首页', link: '/' },
@@ -45,10 +52,14 @@ module.exports = [
       { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
       { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
       { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-      { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-      { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
       { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-      { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+      { text: '移动端', link: '/pages/02d41a/' },
+      { text: 'typescript', link: '/pages/8ad1ba/' },
+      { text: 'webpack', link: '/pages/0131de/' },
+      { text: 'React', link: '/pages/a90c13/' },
+      { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+      { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },   
+      { text: '博客搭建', link: '/pages/41f87d890d0a02af/' }   
     ],
   },
   {

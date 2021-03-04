@@ -1,3 +1,10 @@
+/*
+ * @Description: new file
+ * @Autor: zhan
+ * @Date: 2021-03-01 20:25:36
+ * @LastEditors: zhan
+ * @LastEditTime: 2021-03-01 21:13:27
+ */
 const nav = require('./themeConfig/nav.js')
 const sidebar = require('./themeConfig/sidebar.js')
 const htmlModules = require('./themeConfig/htmlModules.js')
@@ -54,7 +61,7 @@ module.exports = {
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar:
-      'https://raw.githubusercontent.com/21haoxingxiu/picture/master/blog/%E5%A4%B4%E5%83%8F.jpg',
+      'https://raw.githubusercontent.com/21haoxingxiu/picture/master/blog/20210301211257.png',
     name: 'jim zhan',
     slogan: '前端界的小学生',
   },
